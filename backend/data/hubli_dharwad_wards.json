@@ -1,0 +1,186 @@
+{
+  "city": "Hubli-Dharwad",
+  "state": "Karnataka",
+  "country": "India",
+  "headquarters": "Hubli",
+  "administrative_body": "Hubballi-Dharwad Municipal Corporation (HDMC)",
+  "center_latitude": 15.3647,
+  "center_longitude": 75.1240,
+  "city_bounds": {
+    "north": 15.5,
+    "south": 15.2,
+    "east": 75.3,
+    "west": 74.9
+  },
+  "zones": [
+    {
+      "zone_id": "Z-01",
+      "zone_name": "North Zone",
+      "department": "Road & Infrastructure - North",
+      "center": {"lat": 15.45, "lng": 75.12},
+      "coverage_area": "North Hubli"
+    },
+    {
+      "zone_id": "Z-02",
+      "zone_name": "Central Zone",
+      "department": "Road & Infrastructure - Central",
+      "center": {"lat": 15.35, "lng": 75.12},
+      "coverage_area": "Central Hubli"
+    },
+    {
+      "zone_id": "Z-03",
+      "zone_name": "South Zone",
+      "department": "Road & Infrastructure - South",
+      "center": {"lat": 15.25, "lng": 75.12},
+      "coverage_area": "South Hubli"
+    },
+    {
+      "zone_id": "Z-04",
+      "zone_name": "East Zone",
+      "department": "Road & Infrastructure - East",
+      "center": {"lat": 15.35, "lng": 75.2},
+      "coverage_area": "East Hubli & Dharwad"
+    },
+    {
+      "zone_id": "Z-05",
+      "zone_name": "West Zone",
+      "department": "Road & Infrastructure - West",
+      "center": {"lat": 15.35, "lng": 75.04},
+      "coverage_area": "West Hubli & Dharwad"
+    }
+  ],
+  "wards": [
+    {
+      "ward_id": "W-001",
+      "ward_name": "Unkal Ward",
+      "zone_id": "Z-01",
+      "latitude": 15.46,
+      "longitude": 75.11,
+      "area_sqkm": 2.5,
+      "population": 45000,
+      "main_areas": ["Unkal", "Vidyanagar"]
+    },
+    {
+      "ward_id": "W-002",
+      "ward_name": "Ravivar Peth Ward",
+      "zone_id": "Z-02",
+      "latitude": 15.38,
+      "longitude": 75.09,
+      "area_sqkm": 1.8,
+      "population": 38000,
+      "main_areas": ["Ravivar Peth", "Belawadi"]
+    },
+    {
+      "ward_id": "W-003",
+      "ward_name": "Keshwapur Ward",
+      "zone_id": "Z-02",
+      "latitude": 15.36,
+      "longitude": 75.13,
+      "area_sqkm": 2.2,
+      "population": 42000,
+      "main_areas": ["Keshwapur", "Gokul Road"]
+    },
+    {
+      "ward_id": "W-004",
+      "ward_name": "Shantinagar Ward",
+      "zone_id": "Z-02",
+      "latitude": 15.35,
+      "longitude": 75.11,
+      "area_sqkm": 1.9,
+      "population": 41000,
+      "main_areas": ["Shantinagar", "Moti Square"]
+    },
+    {
+      "ward_id": "W-005",
+      "ward_name": "Akkadpeth Ward",
+      "zone_id": "Z-03",
+      "latitude": 15.33,
+      "longitude": 75.12,
+      "area_sqkm": 2.1,
+      "population": 39000,
+      "main_areas": ["Akkadpeth", "Kaladhunga"]
+    },
+    {
+      "ward_id": "W-006",
+      "ward_name": "Narakeri Ward",
+      "zone_id": "Z-03",
+      "latitude": 15.30,
+      "longitude": 75.10,
+      "area_sqkm": 2.0,
+      "population": 37000,
+      "main_areas": ["Narakeri", "Yadavagiri"]
+    },
+    {
+      "ward_id": "W-007",
+      "ward_name": "Sullia Ward",
+      "zone_id": "Z-01",
+      "latitude": 15.42,
+      "longitude": 75.14,
+      "area_sqkm": 2.3,
+      "population": 44000,
+      "main_areas": ["Sullia", "Kumarapura"]
+    },
+    {
+      "ward_id": "W-008",
+      "ward_name": "Dharwad Central Ward",
+      "zone_id": "Z-04",
+      "latitude": 15.47,
+      "longitude": 75.25,
+      "area_sqkm": 2.0,
+      "population": 36000,
+      "main_areas": ["Dharwad City Center", "Station Road"]
+    },
+    {
+      "ward_id": "W-009",
+      "ward_name": "Navarangpeth Ward",
+      "zone_id": "Z-02",
+      "latitude": 15.37,
+      "longitude": 75.12,
+      "area_sqkm": 1.7,
+      "population": 35000,
+      "main_areas": ["Navarangpeth", "Alphanso Road"]
+    },
+    {
+      "ward_id": "W-010",
+      "ward_name": "Yadavagiri Ward",
+      "zone_id": "Z-03",
+      "latitude": 15.28,
+      "longitude": 75.12,
+      "area_sqkm": 2.4,
+      "population": 43000,
+      "main_areas": ["Yadavagiri", "Londa"]
+    }
+  ],
+  "departments": [
+    {
+      "dept_id": "D-001",
+      "dept_name": "Sanitation & Waste Management",
+      "zones": ["Z-01", "Z-02", "Z-03", "Z-04", "Z-05"],
+      "contact": "+91-836-2-XXXXXX",
+      "issues_handled": ["Garbage", "Waste Dumping", "Drain Cleaning"]
+    },
+    {
+      "dept_id": "D-002",
+      "dept_name": "Road & Infrastructure Department",
+      "zones": ["Z-01", "Z-02", "Z-03", "Z-04", "Z-05"],
+      "contact": "+91-836-2-XXXXXX",
+      "issues_handled": ["Pothole", "Road Damage", "Street Maintenance"]
+    },
+    {
+      "dept_id": "D-003",
+      "dept_name": "Water Supply & Sewerage",
+      "zones": ["Z-01", "Z-02", "Z-03", "Z-04", "Z-05"],
+      "contact": "+91-836-2-XXXXXX",
+      "issues_handled": ["Water Leak", "Sewage Issue", "Clogged Drain"]
+    },
+    {
+      "dept_id": "D-004",
+      "dept_name": "Garbage & Waste Management Department",
+      "zones": ["Z-01", "Z-02", "Z-03", "Z-04", "Z-05"],
+      "contact": "+91-836-2-XXXXXX",
+      "issues_handled": ["Garbage", "Waste Dumping", "Illegal Dumping", "Sanitation Issue"]
+    }
+  ],
+  "version": "1.0",
+  "last_updated": "2026-05-19"
+}

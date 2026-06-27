@@ -1,0 +1,7 @@
+# For Python projects
+echo "__pycache__/
+*.pkl
+*.pyc
+.env
+venv/
+node_modules/" > .gitignore
